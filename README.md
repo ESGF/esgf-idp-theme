@@ -1,3 +1,11 @@
-# ESGF IDP Theme Example
+# ESGF IDP Theme
 
-Example templates and styling for a generic ESGF IDP.
+Templates and styling for a generic IDP.
+
+## Packaging the theme
+
+To build a deployable .jar file from this theme, you will need to use the `jar` command with the following arguments:
+
+```bash
+jar cf theme.jar META-INF theme
+```
